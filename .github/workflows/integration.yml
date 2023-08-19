@@ -20,7 +20,7 @@ jobs:
           python-version: "3.9"
       - name: Install dependencies
         run: |
-          pip install -r requirements-dev.txt
+          pip install -r requirements.txt
       - name: Run Tests
         run: |
           ./manage.py test
