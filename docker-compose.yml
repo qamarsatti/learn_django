@@ -19,7 +19,7 @@ services:
     container_name: django_learn
     ports:
       - "8000:8000"
-      
+
     volumes:
       - .:/opt/code
     depends_on:
